@@ -27,6 +27,7 @@
 		DB04DF072AA95E7D009F28D3 /* LaunchDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04DF062AA95E7D009F28D3 /* LaunchDetailsViewModel.swift */; };
 		DB04DF092AA992FA009F28D3 /* ImageCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04DF082AA992FA009F28D3 /* ImageCarousel.swift */; };
 		DB04DF0C2AAA1DDB009F28D3 /* AppDatabaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04DF0B2AAA1DDB009F28D3 /* AppDatabaseProvider.swift */; };
+		DB29C6102AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB29C60F2AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard */; };
 		DBC308842AA908AB00A98F86 /* spaceXChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC308832AA908AB00A98F86 /* spaceXChallengeApp.swift */; };
 		DBC308862AA908AB00A98F86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC308852AA908AB00A98F86 /* ContentView.swift */; };
 		DBC308882AA908AC00A98F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC308872AA908AC00A98F86 /* Assets.xcassets */; };
@@ -80,6 +81,7 @@
 		DB04DF062AA95E7D009F28D3 /* LaunchDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailsViewModel.swift; sourceTree = "<group>"; };
 		DB04DF082AA992FA009F28D3 /* ImageCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarousel.swift; sourceTree = "<group>"; };
 		DB04DF0B2AAA1DDB009F28D3 /* AppDatabaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabaseProvider.swift; sourceTree = "<group>"; };
+		DB29C60F2AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpaceXLaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBC308802AA908AB00A98F86 /* spaceXChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spaceXChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC308832AA908AB00A98F86 /* spaceXChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spaceXChallengeApp.swift; sourceTree = "<group>"; };
 		DBC308852AA908AB00A98F86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		DBC308772AA908AB00A98F86 = {
 			isa = PBXGroup;
 			children = (
+				DB29C60F2AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard */,
 				DBC308822AA908AB00A98F86 /* spaceXChallenge */,
 				DBC308932AA908AD00A98F86 /* spaceXChallengeTests */,
 				DBC3089D2AA908AD00A98F86 /* spaceXChallengeUITests */,
@@ -379,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC3088B2AA908AC00A98F86 /* Preview Assets.xcassets in Resources */,
+				DB29C6102AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard in Resources */,
 				DBC308882AA908AC00A98F86 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -692,6 +696,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SpaceXLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
@@ -723,6 +728,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = SpaceXLaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
