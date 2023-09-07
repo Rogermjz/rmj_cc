@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "74E24983-887C-446A-AB22-95FA53D0A37B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EDFC53F-47A3-4BC2-9A21-79ACBD557893"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Shared/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7EDFC53F-47A3-4BC2-9A21-79ACBD557893 - 909962942ae3504"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in spaceXChallenge.NetworkClient.request(spaceXChallenge.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "spaceXChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roger/Documents/Bimbo%20code%20challenge/spaceXChallenge/spaceXChallenge/Shared/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  uuid = "7EDFC53F-47A3-4BC2-9A21-79ACBD557893 - 909962942ae3504"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in spaceXChallenge.NetworkClient.request(spaceXChallenge.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "spaceXChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roger/Documents/Bimbo%20code%20challenge/spaceXChallenge/spaceXChallenge/Shared/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "271">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C55B9BBA-DB0D-45EB-8543-F83CC7C8EB2D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Shared/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C55B9BBA-DB0D-45EB-8543-F83CC7C8EB2D - 909962942ae32c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in spaceXChallenge.NetworkClient.request(spaceXChallenge.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "spaceXChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roger/Documents/Bimbo%20code%20challenge/spaceXChallenge/spaceXChallenge/Shared/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "309">
+               </Location>
+               <Location
+                  uuid = "C55B9BBA-DB0D-45EB-8543-F83CC7C8EB2D - 909962942ae32c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in spaceXChallenge.NetworkClient.request(spaceXChallenge.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "spaceXChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roger/Documents/Bimbo%20code%20challenge/spaceXChallenge/spaceXChallenge/Shared/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "365">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33A6985B-630A-4C5B-9BB1-524DB139D40E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Shared/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9C8A151-8B89-4B8F-B55A-2724045E2A6B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Modules/LaunchListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "745013BD-5585-4F2F-BB5C-8880CFA6DCCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Shared/AppRouter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "asRequestInfo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11939075-18FF-4950-8F37-985F1988A5A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Shared/NetworkClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "11939075-18FF-4950-8F37-985F1988A5A5 - fe89033419894d86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "spaceXChallenge.NetworkClient.request(spaceXChallenge.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "spaceXChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roger/Documents/Bimbo%20code%20challenge/spaceXChallenge/spaceXChallenge/Shared/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "281">
+               </Location>
+               <Location
+                  uuid = "11939075-18FF-4950-8F37-985F1988A5A5 - 909962942ae3542"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Foundation.Data, Alamofire.AFError&gt;) throws -&gt; Foundation.Data in spaceXChallenge.NetworkClient.request(spaceXChallenge.RequestInfoConvertible) -&gt; Combine.AnyPublisher&lt;Foundation.Data, Swift.Error&gt;"
+                  moduleName = "spaceXChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roger/Documents/Bimbo%20code%20challenge/spaceXChallenge/spaceXChallenge/Shared/NetworkClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "161">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F508FB8F-AB0A-4DAF-8496-D5C076FAE75E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Shared/Models.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getLaunchDate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FA94AA5-8C8D-4F21-94AB-7FD3AEBB7378"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Modules/LaunchDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "addImagesString(launch:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E55097D-7390-415C-8D18-30672008F680"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "spaceXChallenge/Modules/LaunchDetailsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "addImagesString(launch:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
