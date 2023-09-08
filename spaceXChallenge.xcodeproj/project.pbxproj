@@ -29,6 +29,9 @@
 		DB04DF0C2AAA1DDB009F28D3 /* AppDatabaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04DF0B2AAA1DDB009F28D3 /* AppDatabaseProvider.swift */; };
 		DB29C6102AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB29C60F2AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard */; };
 		DB29C6122AAA8D87005DDA4A /* DatabaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29C6112AAA8D87005DDA4A /* DatabaseClient.swift */; };
+		DB43227E2AABBF18005544E0 /* MockNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43227D2AABBF18005544E0 /* MockNetworkClient.swift */; };
+		DB4322812AABBFF3005544E0 /* mockLaunchData.json in Resources */ = {isa = PBXBuildFile; fileRef = DB4322802AABBFF3005544E0 /* mockLaunchData.json */; };
+		DB4322832AABC015005544E0 /* TestUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4322822AABC015005544E0 /* TestUtils.swift */; };
 		DBC308842AA908AB00A98F86 /* spaceXChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC308832AA908AB00A98F86 /* spaceXChallengeApp.swift */; };
 		DBC308862AA908AB00A98F86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC308852AA908AB00A98F86 /* ContentView.swift */; };
 		DBC308882AA908AC00A98F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC308872AA908AC00A98F86 /* Assets.xcassets */; };
@@ -84,6 +87,9 @@
 		DB04DF0B2AAA1DDB009F28D3 /* AppDatabaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDatabaseProvider.swift; sourceTree = "<group>"; };
 		DB29C60F2AAA3B87005DDA4A /* SpaceXLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SpaceXLaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB29C6112AAA8D87005DDA4A /* DatabaseClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseClient.swift; sourceTree = "<group>"; };
+		DB43227D2AABBF18005544E0 /* MockNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkClient.swift; sourceTree = "<group>"; };
+		DB4322802AABBFF3005544E0 /* mockLaunchData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mockLaunchData.json; sourceTree = "<group>"; };
+		DB4322822AABC015005544E0 /* TestUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUtils.swift; sourceTree = "<group>"; };
 		DBC308802AA908AB00A98F86 /* spaceXChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spaceXChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC308832AA908AB00A98F86 /* spaceXChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spaceXChallengeApp.swift; sourceTree = "<group>"; };
 		DBC308852AA908AB00A98F86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -186,6 +192,14 @@
 			path = Database;
 			sourceTree = "<group>";
 		};
+		DB43227F2AABBFCE005544E0 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				DB4322802AABBFF3005544E0 /* mockLaunchData.json */,
+			);
+			name = MockData;
+			sourceTree = "<group>";
+		};
 		DBC308772AA908AB00A98F86 = {
 			isa = PBXGroup;
 			children = (
@@ -233,7 +247,10 @@
 		DBC308932AA908AD00A98F86 /* spaceXChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
+				DB43227F2AABBFCE005544E0 /* MockData */,
 				DBC308942AA908AD00A98F86 /* spaceXChallengeTests.swift */,
+				DB43227D2AABBF18005544E0 /* MockNetworkClient.swift */,
+				DB4322822AABC015005544E0 /* TestUtils.swift */,
 			);
 			path = spaceXChallengeTests;
 			sourceTree = "<group>";
@@ -394,6 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4322812AABBFF3005544E0 /* mockLaunchData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +561,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC308952AA908AD00A98F86 /* spaceXChallengeTests.swift in Sources */,
+				DB4322832AABC015005544E0 /* TestUtils.swift in Sources */,
+				DB43227E2AABBF18005544E0 /* MockNetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
