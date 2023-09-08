@@ -6,6 +6,7 @@ target 'spaceXChallenge' do
   use_frameworks!
 
   pod 'Alamofire', '~> 5.4.3'
+  pod 'RealmSwift'
 
   # Pods for spaceXChallenge
 

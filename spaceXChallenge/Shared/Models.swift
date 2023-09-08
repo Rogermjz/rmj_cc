@@ -6,8 +6,7 @@
 //
 
 import Foundation
-
-//mission_name, site_name, launch
+import RealmSwift
 
 
 struct Launch: Codable {
@@ -35,7 +34,6 @@ struct Launch: Codable {
 }
 
 struct LinksModel: Codable {
-    var missionPatch:      String?
     var missionPatchSmall: String?
     var articleLink:       String?
     var wikipedia:         String?
@@ -45,7 +43,6 @@ struct LinksModel: Codable {
 }
 
 struct LaunchSiteData: Codable {
-    var siteId:       String
     var siteName:     String
     var siteNameLong: String
     
@@ -56,5 +53,32 @@ struct RocketModel: Codable {
     var rocketType: String
     
 }
+
+
+// MARK: - Realm Object
+
+class LaunchPersistedObject: Object {
+    @objc dynamic var flightNumber: Int = 0
+    @objc dynamic var missionName: String = ""
+    @objc dynamic var launchDateUtc: String = ""
+    @objc dynamic var details: String? = nil
+    
+    dynamic var launchSuccess = RealmOptional<Bool>()
+    
+    @objc dynamic var rocketName: String = ""
+    @objc dynamic var rocketType: String = ""
+    @objc dynamic var siteName: String = ""
+    @objc dynamic var siteNameLong: String = ""
+    
+    @objc dynamic var missionPatchSmall: String? = nil
+    @objc dynamic var articleLink: String? = nil
+    @objc dynamic var wikipedia: String? = nil
+    @objc dynamic var videoLink: String? = nil
+    let flickrImages = List<String>()
+    
+    override class func primaryKey() -> String? { return "flightNumber" }
+}
+
+
 
 

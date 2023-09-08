@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LaunchListView: View {
-    @StateObject var viewModel =  LaunchListViewModel()
+    @StateObject var viewModel =  LaunchListViewModel(dataFetcher: AppNetworkClient(), dbFetcher: AppDBClient())
     let tapOnCellAction: (Launch) -> Void
     
     var body: some View {
