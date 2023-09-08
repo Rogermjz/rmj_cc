@@ -27,7 +27,7 @@ struct LaunchListView: View {
                     
 
                 }
-            }
+            }.padding(.horizontal, 5)
             
         }
         .background(LinearGradient(gradient: Gradient(colors: [Color.FirstGradientColor, Color.LastGradientColor]), startPoint: .topLeading, endPoint: .bottomTrailing))
